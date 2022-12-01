@@ -401,6 +401,7 @@
 "Assets/Flooded_Grounds/Scripts/DisableRenderer.cs"
 "Assets/Flooded_Grounds/Scripts/FPSController/CharController_Motor.cs"
 "Assets/Flooded_Grounds/Scripts/FPSDisplay.cs"
+"Assets/Flooded_Grounds/Scripts/Spin.cs"
 "Assets/Flooded_Grounds/Scripts/WaterFloat.cs"
 -langversion:9.0
 
