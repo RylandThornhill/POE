@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638054374298585298
-    m_Hash: 1650708056
+      ticks: 638056077549276759
+    m_Hash: 1010242877
   m_LockFileStatus:
     m_FilePath: C:/Users/1238840/Documents/Poe horror game/POE/Horror Game POE/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638054374298585298
-    m_Hash: 618607993
+      ticks: 638056077549380249
+    m_Hash: 2659549558
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/1238840/Documents/Poe horror game/POE/Horror Game POE/Packages
 m_EditorVersion: 2021.3.14f1 (eee1884e7226)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.17.6
+- packageId: com.unity.collab-proxy@1.17.7
   testable: 0
   isDirectDependency: 1
-  version: 1.17.6
+  version: 1.17.7
   source: 1
-  resolvedPath: C:\Users\1238840\Documents\Poe horror game\POE\Horror Game POE\Library\PackageCache\com.unity.collab-proxy@1.17.6
+  resolvedPath: C:\Users\1238840\Documents\Poe horror game\POE\Horror Game POE\Library\PackageCache\com.unity.collab-proxy@1.17.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -157,13 +157,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638009928240000000
+  datePublishedTicks: 638036787040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
+    revision: 1641a631fd39029595decb52bdfb641b32ed194c
     path: 
   unityLifecycle:
     version: 1.17.6
