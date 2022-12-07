@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private MoveSettings moveSettings = null;
+    [SerializeField] private Transform playerCamera = null;
+
+
     float moveForward;
     float moveSide;
     float moveUp;
