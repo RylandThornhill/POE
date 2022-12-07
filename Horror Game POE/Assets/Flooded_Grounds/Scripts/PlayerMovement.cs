@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private MoveSettings moveSettings = null;
-    [SerializeField] private Transform playerCamera = null;
-
-
+    CapsuleCollider playerCol;
+    float originalHeight;
+    public float reducedHeight;
     float moveForward;
     float moveSide;
     float moveUp;
@@ -36,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
             sensitivity = sensitivity * 1.5f;
         }
         rig = GetComponent<Rigidbody>();
+        playerCol = GetComponent<CapsuleCollider>();
+        originalHeight = playerCol.height;
     }
 
     // Update is called once per frame
@@ -64,6 +65,10 @@ public class PlayerMovement : MonoBehaviour
         {
             CameraRotation(cam, rotX, rotY);
         }
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+            Crouch();
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+            GoUp();
     }
 
     private void FixedUpdate()
@@ -100,5 +105,15 @@ public class PlayerMovement : MonoBehaviour
         {
             gravity = -9.8f;
         }
+    }
+
+    void Crouch()
+    {
+        playerCol.height = reducedHeight;
+    }
+
+    void GoUp()
+    {
+        playerCol.height = originalHeight;
     }
 }
