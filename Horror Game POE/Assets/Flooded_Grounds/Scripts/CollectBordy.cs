@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CollectBordy : MonoBehaviour
 {
+    public PlayerCollector playerScript;
     
     // Start is called before the first frame update
     void Start()
     {
-
+        playerScript = GameObject.Find("Player").GetComponent<PlayerCollector>();
     }
 
     // Update is called once per frame
@@ -20,7 +21,7 @@ public class CollectBordy : MonoBehaviour
     {
         if (other.name=="Player")
         {
-            other.GetComponent<PlayerCollector>().points++;
+            playerScript.points+=1;
             Destroy(gameObject);
             
         }

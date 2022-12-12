@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4ebf6d1bca42bb94f804209d59337694
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Death Party
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 845595abe648e904c8b1821677e78571, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
