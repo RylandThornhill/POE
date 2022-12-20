@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7619212711122919057}
   - component: {fileID: 5295886263433985551}
   - component: {fileID: 6981874761758358337}
-  - component: {fileID: -2091781503640878795}
   - component: {fileID: 5976796377530899383}
+  - component: {fileID: 397875460}
   m_Layer: 0
   m_Name: Bordy
   m_TagString: Ground
@@ -112,19 +112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30375c315162a24887b26fb011b517a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2091781503640878795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3840143401421885269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07cd8ec2ca8e42b49bdef5002d9d92e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScript: {fileID: 0}
 --- !u!108 &5976796377530899383
 Light:
   m_ObjectHideFlags: 0
@@ -187,3 +174,16 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &397875460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840143401421885269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cd8ec2ca8e42b49bdef5002d9d92e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScript: {fileID: 0}
