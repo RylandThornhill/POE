@@ -393,6 +393,7 @@
 "Assets/Flooded_Grounds/PostProcessing/Runtime/Utils/MaterialFactory.cs"
 "Assets/Flooded_Grounds/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+"Assets/Flooded_Grounds/Scripts/ChangeScene.cs"
 "Assets/Flooded_Grounds/Scripts/CollectBordy.cs"
 "Assets/Flooded_Grounds/Scripts/DisableRenderer.cs"
 "Assets/Flooded_Grounds/Scripts/FlashLight.cs"
@@ -402,6 +403,7 @@
 "Assets/Flooded_Grounds/Scripts/PlayerMovement.cs"
 "Assets/Flooded_Grounds/Scripts/SirenTimer.cs"
 "Assets/Flooded_Grounds/Scripts/Spin.cs"
+"Assets/Flooded_Grounds/Scripts/TransitionToCredits.cs"
 "Assets/Flooded_Grounds/Scripts/WaterFloat.cs"
 -langversion:9.0
 
