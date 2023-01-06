@@ -14,17 +14,19 @@ public class TransitionToCredits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (playerScript.points > 7)
+        {
+            Debug.Log("yujjhyjyjyj"+playerScript.points);
+            SceneManager.LoadScene("credits");
+        }
+
     }
 
     public void BordyCounter(int SceneID)
     {
         
         
-            if (playerScript.points > 7)
-            {
-            SceneManager.LoadScene(2);
-            }
+     
        
        
     }
