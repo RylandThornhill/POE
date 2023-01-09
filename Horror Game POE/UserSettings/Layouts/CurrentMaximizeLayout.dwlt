@@ -24,7 +24,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 59
+=======
+  controlID: 61
+>>>>>>> parent of 4cb8afce (random candice stuff)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -34,6 +38,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -286,6 +291,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+=======
+>>>>>>> parent of 4cb8afce (random candice stuff)
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -535,9 +542,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 363.37158, y: 270.8526, z: 4.851923}
     speed: 2
     m_Value: {x: 363.37158, y: 270.8526, z: 4.851923}
+=======
+    m_Target: {x: 543.5593, y: 26.276049, z: 339.88928}
+    speed: 2
+    m_Value: {x: 543.5593, y: 26.276049, z: 339.88928}
+>>>>>>> parent of 4cb8afce (random candice stuff)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +597,21 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.19949685, y: 0.5626779, z: 0.14188059, w: -0.78967273}
+=======
+    m_Target: {x: 0.030486176, y: 0.23278724, z: 0.0070905103, w: -0.97208446}
+>>>>>>> parent of 4cb8afce (random candice stuff)
     speed: 2
     m_Value: {x: 0.19948503, y: 0.5626446, z: 0.14187218, w: -0.78962594}
   m_Size:
     m_Target: 88.11838
     speed: 2
+<<<<<<< HEAD
     m_Value: 88.11838
+=======
+    m_Value: 0.4384041
+>>>>>>> parent of 4cb8afce (random candice stuff)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -634,6 +655,7 @@ MonoBehaviour:
     y: 507
     width: 1220
     height: 260
+<<<<<<< HEAD
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
@@ -642,6 +664,16 @@ MonoBehaviour:
   - {fileID: 11}
   m_Selected: 0
   m_LastSelected: 1
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 11}
+  m_Panes:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> parent of 4cb8afce (random candice stuff)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -691,14 +723,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Flooded_Grounds/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\macabre\POE\Horror Game POE
+  m_LastProjectPath: C:\macabre island\POE\Horror Game POE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
+<<<<<<< HEAD
     m_SelectedIDs: ce8b0000
     m_LastClickedID: 35790
     m_ExpandedIDs: 00000000bc8b0000be8b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 2abd0000
+    m_LastClickedID: 48426
+    m_ExpandedIDs: 0000000046bb000048bb000000ca9a3bffffff7f
+>>>>>>> parent of 4cb8afce (random candice stuff)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +764,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000bc8b0000be8b0000
+=======
+    m_ExpandedIDs: 0000000046bb000048bb0000
+>>>>>>> parent of 4cb8afce (random candice stuff)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
