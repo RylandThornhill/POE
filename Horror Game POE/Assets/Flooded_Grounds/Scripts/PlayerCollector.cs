@@ -12,7 +12,7 @@ public class PlayerCollector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       scoreText.text = points.ToString() + " ";
+        scoreText.text = points.ToString() + " ";
     }
 
     // Update is called once per frame
