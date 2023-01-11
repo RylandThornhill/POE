@@ -1,0 +1,889 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 7531 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/macabre island/POE/Horror Game POE
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62516
+Successfully changed project path to: C:/macabre island/POE/Horror Game POE
+C:/macabre island/POE/Horror Game POE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 62.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/macabre island/POE/Horror Game POE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     3765 MB
+    Driver:   30.0.14030.4003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013015 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.0 MB). Loaded Objects now: 3351.
+Memory consumption went from 127.5 MB to 126.5 MB.
+Total: 3.463100 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.551200 ms  DeleteObjects: 0.535800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1338.363924 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5b5465b85193f74139c00410a2105f') in 0.184648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/No Mercy Font Personal Use Only.ttf
+  artifactKey: Guid(ff44bf4463e067241bd9f51e97107227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/No Mercy Font Personal Use Only.ttf using Guid(ff44bf4463e067241bd9f51e97107227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc658eb92cdfe0fbe0e6bd6ab7f7ebe') in 0.027371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Death Party ttf SDF.asset
+  artifactKey: Guid(ed73b00f1d325df47b8f5b61fba3d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Death Party ttf SDF.asset using Guid(ed73b00f1d325df47b8f5b61fba3d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692029f532d0cae237dbc58cf36814f7') in 0.043064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 915.178671 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(c7dfc5e0fc6992149b493243297018b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(c7dfc5e0fc6992149b493243297018b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad6102a6f50e5d6485ce39d0d525fc') in 0.002396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073994 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(c7da44da4acfa63438b5808e43571949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer using Guid(c7da44da4acfa63438b5808e43571949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903a357038d766e4259ab9dc3616b0a') in 0.035088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(b89e49e90c4c843408bf8f1e81234df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer using Guid(b89e49e90c4c843408bf8f1e81234df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f929f6d8d8344cf8639b05399a8d29') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.668804 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ccd4d83dae849053ebbcac72504ec') in 0.002779 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004322 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3403.
+Memory consumption went from 127.2 MB to 126.2 MB.
+Total: 5.499700 ms (FindLiveObjects: 0.512600 ms CreateObjectMapping: 0.252200 ms MarkObjects: 4.125700 ms  DeleteObjects: 0.607200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.200573 seconds.
+  path: Assets/credits.unity
+  artifactKey: Guid(4c8bd447faed92a41a63e2210fddcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/credits.unity using Guid(4c8bd447faed92a41a63e2210fddcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72124a444557fc7f17948911fcbd7b0e') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.946840 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mHelpers/_BLOCKERCUBE.fbx
+  artifactKey: Guid(ded4816bb4f0ae9449cdbb502869ba0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mHelpers/_BLOCKERCUBE.fbx using Guid(ded4816bb4f0ae9449cdbb502869ba0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8482e16207693fcd84229510d199be6') in 0.207985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_B.fbx
+  artifactKey: Guid(99ccd835683a68c4390956909c69bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_B.fbx using Guid(99ccd835683a68c4390956909c69bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50cf3c165807234a51a87bc873f8a7c') in 0.020944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A_COL.fbx
+  artifactKey: Guid(35176c214241e184099eef1ebab21045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A_COL.fbx using Guid(35176c214241e184099eef1ebab21045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fea069fbc66d3d4bdcc42d8c89e7e75') in 0.018002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Door_A.fbx
+  artifactKey: Guid(d572f8603b910ec4d9fb73977ea98c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Door_A.fbx using Guid(d572f8603b910ec4d9fb73977ea98c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd062408d00d64a80bba023b31ca9db') in 0.016985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_End_B.fbx
+  artifactKey: Guid(ecb3f7ff52f7ee249b243771c5d9d9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_End_B.fbx using Guid(ecb3f7ff52f7ee249b243771c5d9d9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4909f0c37368d2a73cc36bae8fee3dce') in 0.018357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A.fbx
+  artifactKey: Guid(01eff2904fad4694da0b622ebc3b8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A.fbx using Guid(01eff2904fad4694da0b622ebc3b8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ddeff7dd7224bee3567907e9491800') in 0.014847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab
+  artifactKey: Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab using Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fb7db6c4dac02269d63c62515cda89') in 0.271168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_Handrail_A.prefab
+  artifactKey: Guid(6a8ddc2ca1fe3f642beafd6fdd154d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_Handrail_A.prefab using Guid(6a8ddc2ca1fe3f642beafd6fdd154d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaa0b173026191b34e70faf9e5f90bb') in 0.069876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Sounds/3D_LeafRustle.prefab
+  artifactKey: Guid(506eda1dc7aad5742b90e680c7fb5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Sounds/3D_LeafRustle.prefab using Guid(506eda1dc7aad5742b90e680c7fb5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fcac4150f5b99b20493cf9f3ce0ab0') in 0.005534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab
+  artifactKey: Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab using Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317918c888c0ab9e34c60f3c04d5a75d') in 0.051351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Sounds/3D_WindHowl.prefab
+  artifactKey: Guid(81d633455a8cc814e89ff68eb1deb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Sounds/3D_WindHowl.prefab using Guid(81d633455a8cc814e89ff68eb1deb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a963b6045bd9b32ec820d9ef37dac1') in 0.005369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBridge/BLD_Bridge_B.fbx
+  artifactKey: Guid(cdd1bb2c51c2fa64eb39e9cf74436364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBridge/BLD_Bridge_B.fbx using Guid(cdd1bb2c51c2fa64eb39e9cf74436364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bc348fdf8edbb95b19ef01984c8c59') in 0.037963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_Handrail_A.fbx
+  artifactKey: Guid(5f70707467384d54eaa152ebf07cefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_Handrail_A.fbx using Guid(5f70707467384d54eaa152ebf07cefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd4248653f40d97f08db68e53126edb') in 0.019367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch1.prefab
+  artifactKey: Guid(a9656fb5b2112cb42b81a4b6bd080622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch1.prefab using Guid(a9656fb5b2112cb42b81a4b6bd080622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac5112518a8d876fe1df2508784f8fe') in 0.110097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_IntColumn_B.prefab
+  artifactKey: Guid(f8fde9bffcef94e43beea47e6903b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_IntColumn_B.prefab using Guid(f8fde9bffcef94e43beea47e6903b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ddafe3651c900e17039460db6c2772') in 0.047853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Atmospherics/ATM_InteriorDust.prefab
+  artifactKey: Guid(198a7384312e9d7418c7d2b63e402e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Atmospherics/ATM_InteriorDust.prefab using Guid(198a7384312e9d7418c7d2b63e402e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5fd48d4413a865cd3604344e9d9862') in 0.035708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch3.prefab
+  artifactKey: Guid(1b8285b421bb99c43bc3f0772cafb3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch3.prefab using Guid(1b8285b421bb99c43bc3f0772cafb3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea78cfead4b881cf6947f2193171b34') in 0.020377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_IntColumn_A.prefab
+  artifactKey: Guid(91aa488086ba1864bac8975b7b13487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_IntColumn_A.prefab using Guid(91aa488086ba1864bac8975b7b13487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc970d0ff96baefd92c4301cfb4bbe47') in 0.044804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A_COL.fbx
+  artifactKey: Guid(37eefb4b72cdb9a42a2541e65c605b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A_COL.fbx using Guid(37eefb4b72cdb9a42a2541e65c605b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f969b95144a00b07817be3f0f8f72a73') in 0.015852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Sounds/2D_Horn.prefab
+  artifactKey: Guid(27ad1d4b823b95243a1e74fc7c44f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Sounds/2D_Horn.prefab using Guid(27ad1d4b823b95243a1e74fc7c44f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8419ab919952f3061483c6448c1a318') in 0.006962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_IntColumn_B.fbx
+  artifactKey: Guid(403ba69f160964b43b95cfd3cfc31b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_IntColumn_B.fbx using Guid(403ba69f160964b43b95cfd3cfc31b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c57ce97b206c88148d51fb8d6d6e9') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_IntColumn_A.fbx
+  artifactKey: Guid(8b7800cf555d19448824e9fc71e7171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_IntColumn_A.fbx using Guid(8b7800cf555d19448824e9fc71e7171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490d073c458437b0210ed58500bc2442') in 0.015598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Mid_A.prefab
+  artifactKey: Guid(bbf238cb04c5df440a0c498ad01f08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Mid_A.prefab using Guid(bbf238cb04c5df440a0c498ad01f08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbe9eca1d44c0055a78915f3a6d3482') in 0.074020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_Factory_B.prefab
+  artifactKey: Guid(6af6d0b9ef2bca54cb04f979d921648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_Factory_B.prefab using Guid(6af6d0b9ef2bca54cb04f979d921648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2363c144385bb2099f404b4815903e61') in 0.085388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_Handrail_Cap_A.prefab
+  artifactKey: Guid(57aced364abddec4c936cf4c8f9bf1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_Handrail_Cap_A.prefab using Guid(57aced364abddec4c936cf4c8f9bf1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3f3f63140942d8405d974518028550') in 0.048709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_End_A.fbx
+  artifactKey: Guid(7f05e1cf6332ea548876507a754862b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_End_A.fbx using Guid(7f05e1cf6332ea548876507a754862b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c86d75b8d138323f37be345b9e6b1f') in 0.014336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Sounds/2D_Background.prefab
+  artifactKey: Guid(6bdc6aa17790f464bbae0911783dbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Sounds/2D_Background.prefab using Guid(6bdc6aa17790f464bbae0911783dbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467df02ff32bd204f25c068b8844482e') in 0.004176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_A.fbx
+  artifactKey: Guid(fd9cd53bb7e310247bfef62bfd33b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_A.fbx using Guid(fd9cd53bb7e310247bfef62bfd33b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b489e0c3c67cf5c4c0148e0fa0aed26e') in 0.019173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_WindowGlass_A.fbx
+  artifactKey: Guid(b715f3e28605e8246af80d9a98e7cc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Deco_WindowGlass_A.fbx using Guid(b715f3e28605e8246af80d9a98e7cc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cd3c0293284c27bded3084ca616e44') in 0.021556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_B.prefab
+  artifactKey: Guid(9503dd374b0a87e4b8739d2906cd3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_B.prefab using Guid(9503dd374b0a87e4b8739d2906cd3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae1df26fe29a0f7eda3726e2ad66601') in 0.069216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch1_Yellow.prefab
+  artifactKey: Guid(fac7eeb4110541c41a9d4429e752f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Trees/SrcPrefabs/Branch1_Yellow.prefab using Guid(fac7eeb4110541c41a9d4429e752f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800a9334cf7dc06ee28340320f636767') in 0.023844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_Factory_A.prefab
+  artifactKey: Guid(e5a349e90b7eb7a4a8bb302d1f815dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Backgrounds/BGR_Factory_A.prefab using Guid(e5a349e90b7eb7a4a8bb302d1f815dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df114c6836174e31e1d244e307d85148') in 0.047638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_B.fbx
+  artifactKey: Guid(b6a7d46603b861549858925e3fbde8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_B.fbx using Guid(b6a7d46603b861549858925e3fbde8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147f76c9c48b9c666c69f293dcf234e6') in 0.020892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Bridge/BLD_Bridge_A.prefab
+  artifactKey: Guid(06e456f55e6fa06438fb977ee919a779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Bridge/BLD_Bridge_A.prefab using Guid(06e456f55e6fa06438fb977ee919a779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2d3fcf7e678e0faf410fa204ebaeac') in 0.286660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_A.fbx
+  artifactKey: Guid(a2cf4a75cf27e1840a8b0e443f74cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_A.fbx using Guid(a2cf4a75cf27e1840a8b0e443f74cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8541290ec4bf9d752e4a4b57a5ecf274') in 0.020228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Flooded_Grounds/Resources/bordy.png
+  artifactKey: Guid(67636152015d3634e81791f934a9a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Resources/bordy.png using Guid(67636152015d3634e81791f934a9a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a4abc9c2e4be36c8ae2568506a34f') in 0.027027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Helpers/_BLOCKERCUBE.prefab
+  artifactKey: Guid(4884e3768e9a2544a85d07afad356d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Helpers/_BLOCKERCUBE.prefab using Guid(4884e3768e9a2544a85d07afad356d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d52a6df0100aa878e1cdc23c8f0380') in 0.183838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.416912 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/MONSTER.prefab
+  artifactKey: Guid(db927663c99f6524eb0303c6d74e50dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/MONSTER.prefab using Guid(db927663c99f6524eb0303c6d74e50dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acea1a20a3caf5ec776422861b7461e') in 0.014328 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004020 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3411.
+Memory consumption went from 127.9 MB to 127.0 MB.
+Total: 5.131300 ms (FindLiveObjects: 0.431800 ms CreateObjectMapping: 0.240100 ms MarkObjects: 3.778200 ms  DeleteObjects: 0.679300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004661 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3414.
+Memory consumption went from 127.9 MB to 127.0 MB.
+Total: 4.958700 ms (FindLiveObjects: 0.637200 ms CreateObjectMapping: 0.189700 ms MarkObjects: 3.396100 ms  DeleteObjects: 0.733100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004373 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3417.
+Memory consumption went from 127.9 MB to 127.0 MB.
+Total: 4.830100 ms (FindLiveObjects: 0.512900 ms CreateObjectMapping: 0.166300 ms MarkObjects: 3.412300 ms  DeleteObjects: 0.736600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3420.
+Memory consumption went from 128.0 MB to 127.1 MB.
+Total: 4.739600 ms (FindLiveObjects: 0.616500 ms CreateObjectMapping: 0.232500 ms MarkObjects: 3.393000 ms  DeleteObjects: 0.496600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213.027961 seconds.
+  path: Assets/Flooded_Grounds/Readme.pdf
+  artifactKey: Guid(a623147395f2b7645a1c77457f15736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Readme.pdf using Guid(a623147395f2b7645a1c77457f15736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68230f9bfaa8ce51a4c8da254a017be') in 0.017837 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3423.
+Memory consumption went from 128.0 MB to 127.1 MB.
+Total: 5.195800 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.202600 ms MarkObjects: 3.904500 ms  DeleteObjects: 0.686800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.534095 seconds.
+  path: Assets/credits.unity
+  artifactKey: Guid(4c8bd447faed92a41a63e2210fddcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/credits.unity using Guid(4c8bd447faed92a41a63e2210fddcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7b295bd6fce16c12d4b33594535b16') in 0.012059 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004171 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\macabre island\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3426.
+Memory consumption went from 128.0 MB to 127.1 MB.
+Total: 4.633000 ms (FindLiveObjects: 0.436000 ms CreateObjectMapping: 0.222700 ms MarkObjects: 3.207200 ms  DeleteObjects: 0.765200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.679710 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat
+  artifactKey: Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat using Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1172305068d7d72ec2b3e0818e14b620') in 0.112787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073620 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat
+  artifactKey: Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat using Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed80aa447639b8064e1729d7c41f5eb8') in 0.130305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures2_LOD.mat
+  artifactKey: Guid(0a5e5d99899513c4eb2d420489f08ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures2_LOD.mat using Guid(0a5e5d99899513c4eb2d420489f08ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015c35e36c97b51036f3991dce1a3e8c') in 0.222223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures1.mat
+  artifactKey: Guid(bece166f1833f674d9c16ea5184455ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures1.mat using Guid(bece166f1833f674d9c16ea5184455ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce3d8a3ef602eecb19836b2c9f4cc1a') in 0.087090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/Materials/BLD_DarkSky.mat
+  artifactKey: Guid(1526ba2a5a75b374b9791c81e8ef57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/Materials/BLD_DarkSky.mat using Guid(1526ba2a5a75b374b9791c81e8ef57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae400df105e7277d044fd90ebb52d42e') in 0.049440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures1_LOD.mat
+  artifactKey: Guid(4868299c5b3ac2848925175126b6d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures1_LOD.mat using Guid(4868299c5b3ac2848925175126b6d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba4b3f719c5cfdeef1260689c0796d') in 0.056758 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
