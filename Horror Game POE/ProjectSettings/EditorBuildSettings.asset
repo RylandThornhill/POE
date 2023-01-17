@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/balls.unity
+    path: Assets/mainmenu.unity
     guid: 58b1d9f9e5500db4cb6b09c919ba137d
   - enabled: 1
     path: Assets/Flooded_Grounds/Scenes/Scene_A.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/gameover.unity
     guid: 64be6e74e45443c46bb708ff755143d3
+  - enabled: 1
+    path: Assets/HowToPlay.unity
+    guid: c47dbd02496e1764e819ad5ed9e73c9d
   m_configObjects: {}

@@ -19,7 +19,7 @@ public class PlayerCollector : MonoBehaviour
     void Update()
     {
         scoreText.text = "Bordies Collected: " + points.ToString() + " ";
-        Debug.Log(scoreText.text);
+       
     }
 
    
