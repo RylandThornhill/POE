@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32732 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7823 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/MacabreIsland/POE/Horror Game POE
+C:/Users/13026/Documents/GitHub/POE/Horror Game POE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59556
-Successfully changed project path to: D:/MacabreIsland/POE/Horror Game POE
-D:/MacabreIsland/POE/Horror Game POE
+50634
+Successfully changed project path to: C:/Users/13026/Documents/GitHub/POE/Horror Game POE
+C:/Users/13026/Documents/GitHub/POE/Horror Game POE
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,112 @@ D:/MacabreIsland/POE/Horror Game POE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 83.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 149.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/MacabreIsland/POE/Horror Game POE/Assets
+[Subsystems] Discovering subsystems at path C:/Users/13026/Documents/GitHub/POE/Horror Game POE/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
-    Vendor:   NVIDIA
-    VRAM:     8003 MB
-    Driver:   31.0.15.2802
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     3911 MB
+    Driver:   31.0.101.3616
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005005 seconds.
+Registered in 0.008301 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.20 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (679ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001447 seconds.
+Registered in 0.664782 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\MacabreIsland\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\MacabreIsland\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  1.515 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1062ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2901 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 22 unused Assets / (1.0 MB). Loaded Objects now: 3389.
-Memory consumption went from 128.8 MB to 127.9 MB.
-Total: 3.980900 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.239600 ms MarkObjects: 2.949800 ms  DeleteObjects: 0.420900 ms)
+Memory consumption went from 129.0 MB to 128.0 MB.
+Total: 7.018600 ms (FindLiveObjects: 0.782400 ms CreateObjectMapping: 0.615800 ms MarkObjects: 5.220100 ms  DeleteObjects: 0.397800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -159,73 +160,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1584.207634 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_N.tif
-  artifactKey: Guid(276e4162aef7f994fafc01a3e444900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_N.tif using Guid(276e4162aef7f994fafc01a3e444900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a26beba9ffee239299dbdff395179de') in 0.126304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Free Pack/Monster screams/Monster screams - 56.mp3
-  artifactKey: Guid(51c471696c4d8eb4fb32d4cdd9cc61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Monster screams/Monster screams - 56.mp3 using Guid(51c471696c4d8eb4fb32d4cdd9cc61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d352a31accc7a93be39dcb94e584d8') in 0.057692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C.prefab
-  artifactKey: Guid(1833ba93709e80944b9f2627881f3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C.prefab using Guid(1833ba93709e80944b9f2627881f3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1bb0109a9f5011763f24c65a44b115') in 0.507639 seconds 
+  Time since last request: 1353.150755 seconds.
+  path: Assets/mainmenu.unity
+  artifactKey: Guid(58b1d9f9e5500db4cb6b09c919ba137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu.unity using Guid(58b1d9f9e5500db4cb6b09c919ba137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b942a1001aa651c9ff35fae36d1f21') in 0.027536 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001386 seconds.
+Registered in 0.003341 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\MacabreIsland\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\MacabreIsland\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  5.565 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (5567ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (5012ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (279ms)
+			SetupTypeCache (1382ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (340ms)
+			SetupLoadedEditorAssemblies (2388ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (456ms)
+				ProcessInitializeOnLoadAttributes (1433ms)
+				ProcessInitializeOnLoadMethodAttributes (335ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (8ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3441.
-Memory consumption went from 129.2 MB to 128.2 MB.
-Total: 3.391700 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.287800 ms MarkObjects: 2.314100 ms  DeleteObjects: 0.475600 ms)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3392.
+Memory consumption went from 124.5 MB to 123.5 MB.
+Total: 8.125000 ms (FindLiveObjects: 0.818200 ms CreateObjectMapping: 0.259200 ms MarkObjects: 6.000600 ms  DeleteObjects: 1.042400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -233,173 +223,327 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.967195 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Sounds/2D_Background.prefab
-  artifactKey: Guid(6bdc6aa17790f464bbae0911783dbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Sounds/2D_Background.prefab using Guid(6bdc6aa17790f464bbae0911783dbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467df02ff32bd204f25c068b8844482e') in 0.033708 seconds 
+  Time since last request: 468.213180 seconds.
+  path: Assets/Flooded_Grounds/Scenes/Scene_A.unity
+  artifactKey: Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Scene_A.unity using Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda7a0a8ebb7d38f7ac61a7f5fdc425b') in 0.278223 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab
-  artifactKey: Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_End_A.prefab using Guid(34479af8d2d94b4409152dbf18a964ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5e5f79a710944c43844fffd692449a') in 0.126105 seconds 
+  Time since last request: 125.203294 seconds.
+  path: Assets/Flooded_Grounds/Scripts/OnCollision.cs
+  artifactKey: Guid(3299083ef914e244fb9d9af35c69a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scripts/OnCollision.cs using Guid(3299083ef914e244fb9d9af35c69a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bf9e8d5d4fdb20015381a741cacf22') in 0.120439 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1786ms)
+		BeginReloadAssembly (544ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (178ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3395.
+Memory consumption went from 124.5 MB to 123.6 MB.
+Total: 8.573200 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.194400 ms MarkObjects: 6.967400 ms  DeleteObjects: 1.069300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1850ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (528ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3398.
+Memory consumption went from 124.5 MB to 123.6 MB.
+Total: 3.577400 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.242000 ms MarkObjects: 2.539400 ms  DeleteObjects: 0.378000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004557 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4184ms)
+		BeginReloadAssembly (2588ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (184ms)
+		EndReloadAssembly (1438ms)
+			LoadAssemblies (376ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (617ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3401.
+Memory consumption went from 124.5 MB to 123.6 MB.
+Total: 8.737600 ms (FindLiveObjects: 0.802400 ms CreateObjectMapping: 0.291100 ms MarkObjects: 6.770600 ms  DeleteObjects: 0.868100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004431 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3404.
+Memory consumption went from 124.5 MB to 123.6 MB.
+Total: 8.024200 ms (FindLiveObjects: 0.724100 ms CreateObjectMapping: 0.500000 ms MarkObjects: 5.517200 ms  DeleteObjects: 1.270900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\13026\Documents\GitHub\POE\Horror Game POE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (0.9 MB). Loaded Objects now: 3407.
+Memory consumption went from 124.5 MB to 123.6 MB.
+Total: 26.634900 ms (FindLiveObjects: 1.263600 ms CreateObjectMapping: 0.566500 ms MarkObjects: 23.480300 ms  DeleteObjects: 1.311800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A_COL.fbx
-  artifactKey: Guid(35176c214241e184099eef1ebab21045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A_COL.fbx using Guid(35176c214241e184099eef1ebab21045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7714a214b58fa32d771da341f749c17f') in 0.025438 seconds 
+  Time since last request: 1912.588465 seconds.
+  path: Assets/Flooded_Grounds/Scenes/JumpScare.unity
+  artifactKey: Guid(c53d39aa03f3aa840aa50e2e206ea873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/JumpScare.unity using Guid(c53d39aa03f3aa840aa50e2e206ea873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b78fe503bf8aa689a3549c85116d54') in 0.606525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_B.fbx
-  artifactKey: Guid(7ed81267adc15c14d85de7c4f982cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_B.fbx using Guid(7ed81267adc15c14d85de7c4f982cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c11a3ecc954b8950ced60bc402cda7e') in 0.011105 seconds 
+  Time since last request: 66.871831 seconds.
+  path: Assets/Flooded_Grounds/Scripts/FPSController/FpsController.prefab
+  artifactKey: Guid(84e1fb248c9ee584a85470162c251253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scripts/FPSController/FpsController.prefab using Guid(84e1fb248c9ee584a85470162c251253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b659e1d700c8ed3b7a871b11f11938c') in 0.358255 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A.fbx
-  artifactKey: Guid(01eff2904fad4694da0b622ebc3b8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A.fbx using Guid(01eff2904fad4694da0b622ebc3b8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7974bc226a641bf1ef22b413a38307') in 0.010220 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Flooded_Grounds/Content/Materials/MSC_HumanScale.mat
+  artifactKey: Guid(d43da3634ccda7e4dbfd7e94e3071c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Materials/MSC_HumanScale.mat using Guid(d43da3634ccda7e4dbfd7e94e3071c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d009852236d7cdd34019c168069944') in 0.110012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab
-  artifactKey: Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab using Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe5cb14f54113764a9b71d11e86da9') in 0.044138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_B.prefab
-  artifactKey: Guid(9503dd374b0a87e4b8739d2906cd3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_B.prefab using Guid(9503dd374b0a87e4b8739d2906cd3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149ba9d39392d98167af9a57d86bd674') in 0.056388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Base_Mid_A.fbx
-  artifactKey: Guid(6abd91808b5cc3c4392a9391849a70b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Base_Mid_A.fbx using Guid(6abd91808b5cc3c4392a9391849a70b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c818970c5146260ae957f2649708968c') in 0.010003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Mid_A.prefab
-  artifactKey: Guid(7b1355ed0671b9f479e96712b7171f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Mid_A.prefab using Guid(7b1355ed0671b9f479e96712b7171f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c1412dba68710bdfbd1910fd5802cc') in 0.034852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Base_Cor_A.prefab
-  artifactKey: Guid(0a81ac6994fc89e46890e21d8e33ab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Base_Cor_A.prefab using Guid(0a81ac6994fc89e46890e21d8e33ab34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f45d179acaf0d209e1ce30e2343585') in 0.037610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A.fbx
-  artifactKey: Guid(ffe6eb1e4bae4c940be1841bfb095721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Mid_A.fbx using Guid(ffe6eb1e4bae4c940be1841bfb095721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da17b198ccb78c43fcc223f0978dd3e') in 0.011115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Cor_A.prefab
-  artifactKey: Guid(d1077a23caa4367478d7279d5a274545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Cor_A.prefab using Guid(d1077a23caa4367478d7279d5a274545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d384be05251d21e55ba9c3e3f14f4a') in 0.034215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla1/Villa1_Base_Mid_A.fbx
-  artifactKey: Guid(abb38988e3920b34b8694fa4e1f0193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla1/Villa1_Base_Mid_A.fbx using Guid(abb38988e3920b34b8694fa4e1f0193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e544825cd9b9b1fdefade7dd1e960b59') in 0.009304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Deco_Column_Base.fbx
-  artifactKey: Guid(769de98d64e118c41bd1d3a37b0c995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Deco_Column_Base.fbx using Guid(769de98d64e118c41bd1d3a37b0c995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585bac3fc34752ad7f5ff41b709a27fe') in 0.010474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla1/Villa1_Base_Stairs_A_COL.fbx
-  artifactKey: Guid(e7c1a8b720a24e044b003bd80fa39ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla1/Villa1_Base_Stairs_A_COL.fbx using Guid(e7c1a8b720a24e044b003bd80fa39ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56be209e2cea0487c228830ab7b20a53') in 0.011320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A_COL.fbx
-  artifactKey: Guid(37eefb4b72cdb9a42a2541e65c605b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A_COL.fbx using Guid(37eefb4b72cdb9a42a2541e65c605b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518ba18f91ac8400d429cc0c92245bb0') in 0.013010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla2/Villa2_Base_Mid_A.fbx
-  artifactKey: Guid(4ee3222ccf9f06f4dab2b1e8adca2ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla2/Villa2_Base_Mid_A.fbx using Guid(4ee3222ccf9f06f4dab2b1e8adca2ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14096f45757072b9734272ad8a8465d') in 0.009083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla2/Villa2_Base_Cor_A.fbx
-  artifactKey: Guid(473e0550bfcf5744d908d07506e67a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mVilla2/Villa2_Base_Cor_A.fbx using Guid(473e0550bfcf5744d908d07506e67a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57f53c208181411fb4b46a1f5300dae') in 0.009488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Door_A.fbx
-  artifactKey: Guid(7d826f29a6f86bc42b3d6a3a8babc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_Door_A.fbx using Guid(7d826f29a6f86bc42b3d6a3a8babc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54eb46c124c65a7f298b7f6993521a6') in 0.011157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Mid_A.prefab
-  artifactKey: Guid(bbf238cb04c5df440a0c498ad01f08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Mid_A.prefab using Guid(bbf238cb04c5df440a0c498ad01f08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b102808f8d1640b543cfdafeb7e4a86') in 0.042613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_Column_Base.prefab
-  artifactKey: Guid(31a01b4eec39eee4a8f9af7cd90c52da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_Column_Base.prefab using Guid(31a01b4eec39eee4a8f9af7cd90c52da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef448feb3cf2cd421c54c295147ffa9') in 0.033718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Mid_A.prefab
-  artifactKey: Guid(eb76103868aa7dc4c8e39613a5835fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Mid_A.prefab using Guid(eb76103868aa7dc4c8e39613a5835fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e3b1720e3a69f55e3b97e3dc14c210') in 0.035116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A_COL.fbx
-  artifactKey: Guid(058f562e193661448b5f60c4b1c8046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_Mid_A_COL.fbx using Guid(058f562e193661448b5f60c4b1c8046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831447acc965101ce5b0621cff761f9f') in 0.010750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_B_COL.fbx
-  artifactKey: Guid(19fcdc837dbc1c84f89a2780f00dcd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn1_End_B_COL.fbx using Guid(19fcdc837dbc1c84f89a2780f00dcd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c70d7563f2af0087c9598387c83398') in 0.011442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_Door_A.prefab
-  artifactKey: Guid(e13d1dd634af0b14eb644117aa5bfdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn1_Door_A.prefab using Guid(e13d1dd634af0b14eb644117aa5bfdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e76c1f376bc1168ac61461e41de7d0') in 0.041262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Door_A.prefab
-  artifactKey: Guid(c3eadb1639d503b45a6e0e4d8fd2e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_Door_A.prefab using Guid(c3eadb1639d503b45a6e0e4d8fd2e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947ce014b479de843848417d5680b21d') in 0.040933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A.fbx
-  artifactKey: Guid(ead14295a2768a3408238e20328a72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBarns/Barn2_End_A.fbx using Guid(ead14295a2768a3408238e20328a72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27cd7af383e06d9641f428a534135dc') in 0.010553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Deco_IntColumn_Base.fbx
-  artifactKey: Guid(48b63d50975af354886c8c4294099cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mIndBuilding1/IndBuilding1_Deco_IntColumn_Base.fbx using Guid(48b63d50975af354886c8c4294099cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fdc02d933d06a1d8526e4ee4e24bbc') in 0.010174 seconds 
+  Time since last request: 0.000077 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mHelpers/HumanScale.fbx
+  artifactKey: Guid(34994d1b2ee76914f84faad1b7904b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mHelpers/HumanScale.fbx using Guid(34994d1b2ee76914f84faad1b7904b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd20ce661962d1b9a7c1ea2d4e2e368f') in 0.161674 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
